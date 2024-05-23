@@ -1,1 +1,8 @@
-In this directory, you can find the first-stage codes of the project.
+In this directory, you can find the first-stage codes of the project. Here is presente a short description of every file:
+
+Lectura_datos_DESI.ipynb: Here there is a tutorial about how to open, read, and use an astropy fits file. You can learn how to use the information inside the TableHDU and ImageHDU elements.
+Ensayo_h2o_arrays.ipynb: This file shows how to initiate a H2O session, to load the flux data, create a H2O frame and use a prediction model inside H2O.
+Descarga_datos_B_D_DESI.ipynb: This code exhibits the procces of using the beatifulSoup library to find each web link from which every DESI file will be readed. Then, this links are paste in the 
+                               urlspectra.txt file. In the end, we read this links and create 10 fits files that merge all bright and dark catalogues data.
+B_R_Z_wavelenght.fits: This is a fits file that owns the B, R, Z wavelenght values.
+spectra_smooth.ipynb: You can learn some pyspeckit applications and how to find the smooth spectra and some fittings.
