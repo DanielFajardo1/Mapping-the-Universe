@@ -1,8 +1,16 @@
-In this directory, you can find the first-stage codes of the project. Here is presente a short description of every file:
+In this directory, you can find the first-stage codes of the project. Here is a short description of each file:
 
-Lectura_datos_DESI.ipynb: Here there is a tutorial about how to open, read, and use an astropy fits file. You can learn how to use the information inside the TableHDU and ImageHDU elements.
-Ensayo_h2o_arrays.ipynb: This file shows how to initiate a H2O session, to load the flux data, create a H2O frame and use a prediction model inside H2O.
-Descarga_datos_B_D_DESI.ipynb: This code exhibits the procces of using the beatifulSoup library to find each web link from which every DESI file will be readed. Then, this links are paste in the 
-                               urlspectra.txt file. In the end, we read this links and create 10 fits files that merge all bright and dark catalogues data.
-B_R_Z_wavelenght.fits: This is a fits file that owns the B, R, Z wavelenght values.
-spectra_smooth.ipynb: You can learn some pyspeckit applications and how to find the smooth spectra and some fittings.
+Lectura_datos_DESI.ipynb: This notebook provides a tutorial on how to open, read, and use an Astropy FITS file. You can learn how to utilize the information inside the TableHDU and ImageHDU elements.
+
+Ensayo_h2o_arrays.ipynb: This file demonstrates how to initiate an H2O session, load the flux data, create an H2O frame, and use a prediction model within H2O.
+
+Descarga_datos_B_D_DESI.ipynb: This code shows the process of using the BeautifulSoup library to find each web link from which every DESI file will be read. These links are then pasted into the
+                               urlspectra.txt file. In the end, these links are read, and 10 FITS files are created that merge all bright and dark catalog data.
+
+B_R_Z_wavelength.fits: This is a FITS file that contains the B, R, and Z wavelength values.
+
+spectra_smooth.ipynb: This notebook demonstrates some PySpeckit applications, showing how to find the smoothed spectra and perform some fittings.
+
+Extraccion_de_parametros_submuestra.py: This script presents the first insights into analyzing DESI data using 55 features and the H2O models. The best model according to H2O can be found here.
+
+Standardization.ipynb: In this notebook, all 10 original DESI files are opened and standardized with respect to each flux value at each wavelength. It generates another 10 FITS files with the standardized data.
